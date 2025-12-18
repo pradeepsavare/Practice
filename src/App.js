@@ -1,7 +1,8 @@
 
 import './App.css';
 
-import UseReducer from './UseReducer/UseReducer';
+
+import UseRef from './UseRef/UseRef';
 
 
 
@@ -12,12 +13,12 @@ function App() {
   return (
     <>
       {/* <UseEffect /> */}
-      {/* <UseRef /> */}
+      <UseRef />
       {/* <UseMemo/> */}
       {/* <UseCallback/> */}
       {/* <UseLayoutEffect/> */}
       {/* <UseContext/> */}
-      <UseReducer/>
+      {/* <UseReducer/> */}
     </>
   );
 }
