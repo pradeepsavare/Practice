@@ -1,5 +1,6 @@
 
 import './App.css';
+import UseEffect from './UseEffect/UseEffect';
 
 import UseMemo from './UseMemo/UseMemo';
 
@@ -8,9 +9,9 @@ function App() {
 
   return (
     <>
-      {/* <UseEffect /> */}
+      <UseEffect />
       {/* <UseRef /> */}
-      <UseMemo/>
+      {/* <UseMemo/> */}
       {/* <UseCallback/> */}
       {/* <UseLayoutEffect/> */}
       {/* <UseContext/> */}
