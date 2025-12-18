@@ -15,7 +15,11 @@ function UseReducer() {
         }
     }
 
+    const reduserToggle = (state) =>!state;
+
     const [state, dispatch] = useReducer(reduser, initialState);
+
+    const[isOn,dispatchToggle]= useReducer(reduserToggle,false);
 
     return (
         <>
@@ -24,7 +28,10 @@ function UseReducer() {
             <h2>{state}</h2>
             <button onClick={() => { dispatch({ type: 'increment' }) }}>Increase</button>
             <button onClick={() => { dispatch({ type: 'decrement' }) }}>Decrese</button>
-
+            <hr />
+            <h1>UserReducer for Toggle</h1>
+            <h1>{isOn ? 'ON' : 'OFF'}</h1>
+            <button onClick={dispatchToggle}>Toggle</button>
         </>
     )
 }
