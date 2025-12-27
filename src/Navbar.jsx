@@ -8,6 +8,7 @@ function Navbar() {
       <h2 className="logo">React Hooks</h2>
       <ul className="nav-links">
         <li><Link to="/">useEffect</Link></li>
+        <li><Link to="/Counter">Counter</Link></li>
         <li><Link to="/useref">useRef</Link></li>
         <li><Link to="/usememo">useMemo</Link></li>
         <li><Link to="/usecallback">useCallback</Link></li>
